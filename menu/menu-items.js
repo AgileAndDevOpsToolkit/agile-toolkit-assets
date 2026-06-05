@@ -1,4 +1,4 @@
-// tools.js
+// menu-items.js
 window.AGILE_TOOLKIT_TOOLS = [
   { title: "🏠 Accueil - Agile Toolkit Hub", url: "https://agileanddevopstoolkit.github.io/agile-toolkit-hub/"},
   { title: "▶️ Chaîne Youtube", url: "https://www.youtube.com/@AgileToolkit"},

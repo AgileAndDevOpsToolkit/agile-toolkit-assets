@@ -158,7 +158,7 @@
   if (tools.length === 0) {
     const empty = document.createElement("div");
     empty.className = "atk-empty";
-    empty.textContent = "Aucun lien configuré. Renseigne tools.js (AGILE_TOOLKIT_TOOLS).";
+    empty.textContent = "Aucun lien configuré. Renseigne menu-items.js (AGILE_TOOLKIT_TOOLS).";
     panel.appendChild(head);
     panel.appendChild(empty);
   } else {
