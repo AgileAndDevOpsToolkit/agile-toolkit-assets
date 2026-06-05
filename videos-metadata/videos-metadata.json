@@ -1,0 +1,194 @@
+[ 
+	{
+		"serie": "01 Agilité à l'Échelle",
+		"videos": [
+			{
+				"id_youtube": "FAKE01A001",
+				"titre": "Les bases de l'agilité à l'échelle en 10 minutes",
+				"description-courte": "Une introduction simple aux frameworks d'agilité à l'échelle.",
+				"description-moyenne": "Cette vidéo présente les principes communs des approches d'agilité à l'échelle, les rôles clés et les premiers pièges à éviter quand plusieurs équipes doivent collaborer.",
+				"mots-cles": ["agilité", "échelle", "organisation", "équipes"],
+				"questions-repondues": [
+					"Quand passer à l'agilité à l'échelle ?",
+					"Quels rôles faut-il clarifier en priorité ?"
+				]
+			}
+		]
+	},
+	{
+		"serie": "02 Agilité et IA",
+		"videos": [
+			{
+				"id_youtube": "FAKE02A001",
+				"titre": "Comment l'IA peut accélérer un rituel agile",
+				"description-courte": "Exemples concrets d'usage de l'IA en équipe agile.",
+				"description-moyenne": "On explore comment utiliser l'IA pour préparer les daily, synthétiser des tickets et améliorer la qualité des user stories sans perdre l'esprit collaboratif.",
+				"mots-cles": ["agilité", "IA", "scrum", "productivité"],
+				"questions-repondues": [
+					"Quels usages IA sont utiles sans complexifier l'équipe ?",
+					"Comment garder une validation humaine efficace ?"
+				]
+			}
+		]
+	},
+	{
+		"serie": "03 Glossaire",
+		"videos": [
+			{
+				"id_youtube": "FAKE03A001",
+				"titre": "Glossaire agile: les 15 termes à connaître",
+				"description-courte": "Définitions rapides des mots-clés agiles.",
+				"description-moyenne": "Une vidéo pédagogique pour comprendre backlog, sprint, vélocité, incrément et autres notions souvent utilisées dans les équipes produit et tech.",
+				"mots-cles": ["glossaire", "agile", "définitions", "formation"],
+				"questions-repondues": [
+					"Quelle différence entre epic, feature et user story ?",
+					"Que signifie réellement la vélocité ?"
+				]
+			}
+		]
+	},
+	{
+		"serie": "04 DevOps et IA",
+		"videos": [
+			{
+				"id_youtube": "FAKE04A001",
+				"titre": "DevOps + IA: automatiser sans perdre le contrôle",
+				"description-courte": "Panorama des usages IA dans une chaîne DevOps.",
+				"description-moyenne": "Cette vidéo couvre les apports de l'IA sur le CI/CD, la détection d'anomalies, la documentation technique et les garde-fous à mettre en place.",
+				"mots-cles": ["DevOps", "IA", "CI/CD", "automatisation"],
+				"questions-repondues": [
+					"Où l'IA apporte le plus de valeur dans le pipeline ?",
+					"Quels risques faut-il surveiller en production ?"
+				]
+			}
+		]
+	},
+	{
+		"serie": "05 Rétros",
+		"videos": [
+			{
+				"id_youtube": "FAKE05A001",
+				"titre": "Rétrospectives efficaces: format simple et actionnable",
+				"description-courte": "Un canevas concret pour animer une rétro utile.",
+				"description-moyenne": "On déroule une structure de rétrospective en trois temps, avec des techniques de facilitation pour faire émerger des actions réalistes et suivies.",
+				"mots-cles": ["rétro", "facilitation", "amélioration continue", "équipe"],
+				"questions-repondues": [
+					"Comment éviter les rétrospectives répétitives ?",
+					"Comment transformer les idées en vraies actions ?"
+				]
+			}
+		]
+	},
+	{
+		"serie": "06 Démos",
+		"videos": [
+			{
+				"id_youtube": "FAKE06A001",
+				"titre": "Préparer une démo produit claire et impactante",
+				"description-courte": "Les bonnes pratiques pour des démos compréhensibles.",
+				"description-moyenne": "Cette vidéo montre comment scénariser une démo, cadrer les messages clés et adapter le niveau de détail selon les parties prenantes.",
+				"mots-cles": ["démo", "produit", "communication", "stakeholders"],
+				"questions-repondues": [
+					"Que montrer en priorité dans une sprint review ?",
+					"Comment garder une démo courte mais utile ?"
+				]
+			}
+		]
+	},
+	{
+		"serie": "07 DevOps",
+		"videos": [
+			{
+				"id_youtube": "FAKE07A001",
+				"titre": "DevOps pour débutants: principes et premiers pas",
+				"description-courte": "Introduction aux fondations DevOps.",
+				"description-moyenne": "Un épisode d'entrée pour comprendre culture DevOps, collaboration, automatisation et mesure continue dans un contexte projet réel.",
+				"mots-cles": ["DevOps", "culture", "automatisation", "delivery"],
+				"questions-repondues": [
+					"Par quoi commencer quand on débute en DevOps ?",
+					"Quels indicateurs suivre au départ ?"
+				]
+			}
+		]
+	},
+	{
+		"serie": "08 Questions",
+		"videos": [
+			{
+				"id_youtube": "FAKE08A001",
+				"titre": "Questions fréquentes sur Scrum et Kanban",
+				"description-courte": "Réponses courtes aux questions les plus posées.",
+				"description-moyenne": "On répond aux interrogations récurrentes autour de Scrum, Kanban, rôles, métriques et choix d'approche selon le contexte d'équipe.",
+				"mots-cles": ["questions", "Scrum", "Kanban", "FAQ"],
+				"questions-repondues": [
+					"Scrum ou Kanban: comment choisir ?",
+					"Faut-il des estimations dans tous les cas ?"
+				]
+			}
+		]
+	},
+	{
+		"serie": "09 Specials",
+		"videos": [
+			{
+				"id_youtube": "FAKE09A001",
+				"titre": "Épisode spécial: retour d'expérience terrain",
+				"description-courte": "Un format spécial basé sur un cas réel.",
+				"description-moyenne": "Analyse d'un contexte d'équipe, des décisions prises, des erreurs rencontrées et des ajustements qui ont permis d'améliorer les résultats.",
+				"mots-cles": ["special", "retour d'expérience", "terrain", "apprentissage"],
+				"questions-repondues": [
+					"Quels leviers ont eu le plus d'impact ?",
+					"Quelles erreurs éviter sur un cas similaire ?"
+				]
+			}
+		]
+	},
+	{
+		"serie": "10 Comprendre l'IA",
+		"videos": [
+			{
+				"id_youtube": "FAKE10A001",
+				"titre": "Comprendre l'IA sans jargon",
+				"description-courte": "Concepts IA expliqués simplement.",
+				"description-moyenne": "Un épisode de vulgarisation pour distinguer IA, machine learning et modèles génératifs, avec des exemples concrets du quotidien.",
+				"mots-cles": ["IA", "vulgarisation", "machine learning", "génératif"],
+				"questions-repondues": [
+					"Quelle différence entre IA classique et IA générative ?",
+					"Comment expliquer l'IA à un public non technique ?"
+				]
+			}
+		]
+	},
+	{
+		"serie": "11 Use Cases IA",
+		"videos": [
+			{
+				"id_youtube": "FAKE11A001",
+				"titre": "5 cas d'usage IA utiles en équipe produit",
+				"description-courte": "Sélection de cas d'usage IA directement applicables.",
+				"description-moyenne": "On passe en revue des exemples orientés produit et delivery: recherche utilisateur, tri d'insights, génération de drafts et support à la priorisation.",
+				"mots-cles": ["use cases", "IA", "produit", "priorisation"],
+				"questions-repondues": [
+					"Quels cas d'usage sont vite rentables ?",
+					"Comment choisir un premier pilote IA ?"
+				]
+			}
+		]
+	},
+	{
+		"serie": "12 Ice Breakers",
+		"videos": [
+			{
+				"id_youtube": "FAKE12A001",
+				"titre": "12 ice breakers pour lancer un atelier",
+				"description-courte": "Des idées rapides pour démarrer avec énergie.",
+				"description-moyenne": "Une compilation d'ice breakers faciles à animer, adaptés aux ateliers agiles, rétrospectives et sessions de co-construction.",
+				"mots-cles": ["ice breakers", "atelier", "facilitation", "énergie"],
+				"questions-repondues": [
+					"Quel ice breaker choisir selon le temps disponible ?",
+					"Comment adapter l'activité à un groupe distribué ?"
+				]
+			}
+		]
+	}
+]
