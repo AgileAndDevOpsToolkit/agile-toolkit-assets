@@ -336,6 +336,23 @@ textarea {
   justify-content: flex-end;
 }
 
+.keywords-input {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 0.95rem;
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg);
+  color: var(--text);
+}
+
+.keywords-copy-btn {
+  padding: 4px 8px;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
 .list-editor {
   display: grid;
   gap: 10px;

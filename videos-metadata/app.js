@@ -202,13 +202,10 @@
     videoCard.content.appendChild(videoActions);
     el.editorForm.appendChild(videoCard.card);
 
-    el.editorForm.appendChild(createListEditor({
-      title: 'Mots-clés',
-      items: video['mots-cles'],
-      itemLabel: 'Mot-clé',
-      singleLine: true,
-      onChange: (items) => updateVideoField('mots-cles', items),
-    }));
+    el.editorForm.appendChild(createKeywordsEditor(
+      video['mots-cles'],
+      (items) => updateVideoField('mots-cles', items),
+    ));
 
     el.editorForm.appendChild(createListEditor({
       title: 'Questions répondues',
@@ -269,6 +266,33 @@
 
     row.append(labelEl, control, actions);
     return row;
+  }
+
+  function createKeywordsEditor(items, onChange) {
+    const { card, content } = createCard('Mots-clés');
+
+    const header = card.querySelector('.section-title');
+    const copyBtn = document.createElement('button');
+    copyBtn.type = 'button';
+    copyBtn.className = 'btn btn-small keywords-copy-btn';
+    copyBtn.textContent = '📋';
+    copyBtn.title = 'Copier les mots-clés';
+    const input = document.createElement('input');
+    input.type = 'text';
+    input.value = items.map(k => `#${k}`).join(' ');
+    input.placeholder = '#mot1 #mot2 #mot3';
+    input.className = 'keywords-input';
+
+    copyBtn.addEventListener('click', () => copyText(input.value));
+
+    input.addEventListener('input', () => {
+      const keywords = input.value.split(/\s+/).filter(Boolean).map(k => k.replace(/^#+/, ''));
+      onChange(keywords);
+    });
+
+    header.appendChild(copyBtn);
+    content.appendChild(input);
+    return card;
   }
 
   function createListEditor({ title, items, itemLabel, singleLine, onChange }) {
