@@ -359,6 +359,26 @@ textarea {
   line-height: 1;
 }
 
+.questions-input {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 0.95rem;
+  padding: 10px 12px;
+  border: 1px solid var(--border-strong);
+  border-radius: 10px;
+  background: #fff;
+  color: var(--text);
+  outline: none;
+  min-height: 96px;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.questions-input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(31, 111, 235, 0.12);
+}
+
 .list-editor {
   display: grid;
   gap: 10px;

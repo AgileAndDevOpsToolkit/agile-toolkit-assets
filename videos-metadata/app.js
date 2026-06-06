@@ -207,13 +207,10 @@
       (items) => updateVideoField('mots-cles', items),
     ));
 
-    el.editorForm.appendChild(createListEditor({
-      title: 'Questions répondues',
-      items: video['questions-repondues'],
-      itemLabel: 'Question',
-      singleLine: false,
-      onChange: (items) => updateVideoField('questions-repondues', items),
-    }));
+    el.editorForm.appendChild(createQuestionsEditor(
+      video['questions-repondues'],
+      (items) => updateVideoField('questions-repondues', items),
+    ));
   }
 
   function createCard(title) {
@@ -292,6 +289,33 @@
 
     header.appendChild(copyBtn);
     content.appendChild(input);
+    return card;
+  }
+
+  function createQuestionsEditor(items, onChange) {
+    const { card, content } = createCard('Questions répondues');
+
+    const header = card.querySelector('.section-title');
+    const copyBtn = document.createElement('button');
+    copyBtn.type = 'button';
+    copyBtn.className = 'btn btn-small keywords-copy-btn';
+    copyBtn.textContent = '📋';
+    copyBtn.title = 'Copier les questions';
+
+    const textarea = document.createElement('textarea');
+    textarea.value = items.join('\n');
+    textarea.placeholder = 'Une question par ligne';
+    textarea.className = 'questions-input';
+
+    copyBtn.addEventListener('click', () => copyText(textarea.value));
+
+    textarea.addEventListener('input', () => {
+      const questions = textarea.value.split('\n').filter(Boolean);
+      onChange(questions);
+    });
+
+    header.appendChild(copyBtn);
+    content.appendChild(textarea);
     return card;
   }
 
