@@ -14,10 +14,63 @@
                     "équipes",
                     "test"
                 ],
-                "questions-repondues": [
-                    "Quand passer à l'agilité à l'échelle ?",
-                    "Quels rôles faut-il clarifier en priorité ?"
-                ]
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "QoZb9bjj3SI",
+                "titre": "Pourquoi l'échelle ? De Scrum à SAFe",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "oeHS2HAHXl8",
+                "titre": "SAFe - Introducion & niveaux",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "DE9Un87qRLY",
+                "titre": "SAFe - Itérations & PI",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "oeHS2HAHXl8",
+                "titre": "SAFe - Les rôles du niveau Train",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "WHBSGK3s33c",
+                "titre": "SAFe - Organisation des équipes (topologie) : Component Team et Feature Team",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "rdExBxwMUs8",
+                "titre": "SAFe - User Stories, Features, Capabilities",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "sDQVOk9AcOo",
+                "titre": "Types de Stories, DoR & DoD",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
             }
         ]
     },
@@ -25,20 +78,308 @@
         "serie": "02 Agilité et IA",
         "videos": [
             {
-                "id_youtube": "FAKE02A001",
-                "titre": "Comment l'IA peut accélérer un rituel agile",
-                "description-courte": "Exemples concrets d'usage de l'IA en équipe agile.",
-                "description-moyenne": "On explore comment utiliser l'IA pour préparer les daily, synthétiser des tickets et améliorer la qualité des user stories sans perdre l'esprit collaboratif.",
+                "id_youtube": "OChJUyU8dWk",
+                "titre": "On teste ChatGPT, CLaude et Gemini sur 3 questions d'agilité basiques",
+                "description-courte": "",
+                "description-moyenne": "",
                 "mots-cles": [
-                    "agilité",
-                    "IA",
-                    "scrum",
-                    "productivité"
+                    "benchmark",
+                    "essentiels_ia"
                 ],
-                "questions-repondues": [
-                    "Quels usages IA sont utiles sans complexifier l'équipe ?",
-                    "Comment garder une validation humaine efficace ?"
-                ]
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "dcxUaeH-z4Y",
+                "titre": "On teste ChatGPT, CLaude et Gemini sur 3 questions d'agilité basiques",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "benchmark"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "0Fg0-ufPo_c",
+                "titre": "On essaye pour la première fois de faire générer des templates de rétrospectives agiles par ChatGPT, Claude et Gemini",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "benchmark"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "QimIFnkOCA4",
+                "titre": "On teste ChatGPT, Claude et Gemini sur des questions relatives à la gestion de confits classiques agiles",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "benchmark"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "xX4FqB3eo1c",
+                "titre": "On teste Perplexity pour la première fois, sur nos questions d'agilité classiques",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "benchmark"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "e-WzAmTcbH0",
+                "titre": "On teste ChatGPT, Claude, Gemini et Perplexity sur une question piège (comparer la performance de deux équipes agiles)",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "benchmark"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "8m3mw_AJC3g",
+                "titre": "On teste ChatGPT, Claude, Gemini et Perplexity sur une question piège (une équipe qui a trop de PI objectives)",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "benchmark"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "Jg0Mlvs6oMY",
+                "titre": "On teste DeepSeek pour la première fois, sur nos questions d'agilité classiques",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "benchmark"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "OnPn_DEiu8A",
+                "titre": "Résumé de tous les tests 'Agilité et IA' déjà réalisés sur la chaîne et annonce des prochains tests",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "benchmark",
+                    "essentiels_ia"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "WndMc3zyslU",
+                "titre": "On teste Mistral (l'IA made in France) pour la première fois, sur nos questions d'agilité classiques",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "benchmark"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "KjQoTN35vx0",
+                "titre": "On teste DeepSeek et Mistral sur les questions piège de l'agilité",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "benchmark"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "VBl8HD9fmEU",
+                "titre": "On teste Grok sur les questions d'agilité classiques",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "benchmark"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "2-N4yXsxI6k",
+                "titre": "On teste Grok et Llama 3.2 en local sur les questions pièges de l'agilité",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "benchmark"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "a7AkWmHmD3U",
+                "titre": "On teste Llama 3.3 en local avec Ollama. Llama 3.3 est le plus gros LLM que je peux tester sur mon PC (70 milliards de paramètres)",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "benchmark"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "WSED-zz4AXY",
+                "titre": "On fait un classement de toutes les IA qu'on a testées sur la chaîne : ChatGPT, Claude, Gemini, Perplexity, DeepSeek, Mistral, Gamma, Ollama et Grok",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "benchmark"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "0wq97uCeKx4",
+                "titre": "Je teste gpt-oss, le LLM libre d'OpenAI (l'éditeur de ChatGPT)",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "benchmark"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "msbehMVDFeA",
+                "titre": "On teste la reconnaissance vocale (Speech to Text) de toutes les IA",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "benchmark"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "sCOcG4XvHiI",
+                "titre": "L'IA fait-elle gagner du temps ?",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "réflexion",
+                    "essentiels_ia"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "RkGns4peGZo",
+                "titre": "Pourquoi il faut s'intéresser à l'IA lorsque l'on fait de la gestion de projet en général (et de l'agilité en particulier) ?",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "réflexion",
+                    "essentiels_ia"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "sYr-MnXurUY",
+                "titre": "Description des Use Cases agiles pour lesquels l'IA est efficace et rend service",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "réflexion"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "1pKth1Mk3Ss",
+                "titre": "On crée un Custom GPT permettant de créer des templates de rétrospective à volonté et on se livre à une rélexion sur cette nouvelle pratique qu'on peut assimiler à une nouvelle forme de développement informatique",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "réflexion"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "-sld7tBoCaQ",
+                "titre": "J'explique pourquoi ce que produit l'IA n'est jamais parfait et nécessite toujours des retouches",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "réflexion"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "MDLbvJp229I",
+                "titre": "Je fais 6 prédictions sur les évolutions à 10 ans apportées par l'IA",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "réflexion"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "3Nil-nXFUXc",
+                "titre": "J'explique pourquoi l'IA ne progresse plus",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "réflexion"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "6G89qC8_jxQ",
+                "titre": "3 façons dont l'IA révolutionne la programmation",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "réflexion"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "5LoHfpywsD0",
+                "titre": "Je vous explique en quoi l\\'IA est un nouveau paradigme de programmation",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "réflexion"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "TBvkV607Tic",
+                "titre": "J\\'explique les différents composants techniques d\\'une IA générative",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "réflexion"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "_WVWZ93FaSI",
+                "titre": "ChatGPT présente les slides d'une review à l'oral (synthèse vocale, text to speech)",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "essentiels_ia"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "qhCH237rC9c",
+                "titre": "On installe Ollama en local et on teste le modèle Llama 3.2 sur les questions d\\'agilité classiques",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "essentiels_ia"
+                ],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "XaUYdbCj6UM",
+                "titre": "On demande à l'IA de générer les slides d'une présentation. On teste ChatGPT et Gamma, une IA spécialisée dans la génération de présentations",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [
+                    "essentiels_ia"
+                ],
+                "questions-repondues": []
             }
         ]
     },
@@ -46,20 +387,76 @@
         "serie": "03 Glossaire",
         "videos": [
             {
-                "id_youtube": "FAKE03A001",
-                "titre": "Glossaire agile: les 15 termes à connaître",
-                "description-courte": "Définitions rapides des mots-clés agiles.",
-                "description-moyenne": "Une vidéo pédagogique pour comprendre backlog, sprint, vélocité, incrément et autres notions souvent utilisées dans les équipes produit et tech.",
-                "mots-cles": [
-                    "glossaire",
-                    "agile",
-                    "définitions",
-                    "formation"
-                ],
-                "questions-repondues": [
-                    "Quelle différence entre epic, feature et user story ?",
-                    "Que signifie réellement la vélocité ?"
-                ]
+                "id_youtube": "7OA3USnZ3TU",
+                "titre": "Agilité",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "sd6FzRFEHGY",
+                "titre": "Agilité à l'Échelle",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "L6QMqTG5j1I",
+                "titre": "",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "FxkqMh5mM24",
+                "titre": "",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "MM3X7MvXYuQ",
+                "titre": "",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "5uNde1yFawk",
+                "titre": "",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "5TeeNfOffDc",
+                "titre": "",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "6jSZZ4XTcmg",
+                "titre": "",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "WknLX4DEs1k",
+                "titre": "",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
             }
         ]
     },
@@ -67,20 +464,14 @@
         "serie": "04 DevOps et IA",
         "videos": [
             {
-                "id_youtube": "FAKE04A001",
-                "titre": "DevOps + IA: automatiser sans perdre le contrôle",
-                "description-courte": "Panorama des usages IA dans une chaîne DevOps.",
-                "description-moyenne": "Cette vidéo couvre les apports de l'IA sur le CI/CD, la détection d'anomalies, la documentation technique et les garde-fous à mettre en place.",
+                "id_youtube": "7MEj3jMiVic",
+                "titre": "Je montre commen ChatGPT, Claude et Gemini peuvent générer des Release Notes à partir d'un fichier gitlog",
+                "description-courte": "",
+                "description-moyenne": "",
                 "mots-cles": [
-                    "DevOps",
-                    "IA",
-                    "CI/CD",
-                    "automatisation"
+                    "essentiels_ia"
                 ],
-                "questions-repondues": [
-                    "Où l'IA apporte le plus de valeur dans le pipeline ?",
-                    "Quels risques faut-il surveiller en production ?"
-                ]
+                "questions-repondues": []
             }
         ]
     },
@@ -88,20 +479,180 @@
         "serie": "05 Rétros",
         "videos": [
             {
-                "id_youtube": "FAKE05A001",
-                "titre": "Rétrospectives efficaces: format simple et actionnable",
-                "description-courte": "Un canevas concret pour animer une rétro utile.",
-                "description-moyenne": "On déroule une structure de rétrospective en trois temps, avec des techniques de facilitation pour faire émerger des actions réalistes et suivies.",
-                "mots-cles": [
-                    "rétro",
-                    "facilitation",
-                    "amélioration continue",
-                    "équipe"
-                ],
-                "questions-repondues": [
-                    "Comment éviter les rétrospectives répétitives ?",
-                    "Comment transformer les idées en vraies actions ?"
-                ]
+                "id_youtube": "wSJGMRr9vmw",
+                "titre": "Je donne la méthode pour arriver générer des templates de rétrospective agile avec ChatGPT et Claude",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "TzaGwyiHA0A",
+                "titre": "Tuto : la rétrospective agile la plus simple.",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "MDRCbKRLNag",
+                "titre": "Tuto : La rétro Positif/Négatif",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "tAPmKfrH7oE",
+                "titre": "Tuto : Comment dessiner ses templates de rétrospective avec ChatGPT ?",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "JaJYQ5kVpts",
+                "titre": "Tuto : La rétro Speedboat -un grand classique)",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "25hmOK3tUe8",
+                "titre": "Tuto : La rétro 'Les 3 Petits Cochons' (un grand classique)",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "QZfAt7Uk-eY",
+                "titre": "Tuto : je crée une rétro sur le thème du Foot",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "sfN1yDJYebY",
+                "titre": "On fait générer une rétro sur le thème du foot par ChatGPT et Claude",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "XJWfHcmCOh0",
+                "titre": "Tuto : je crée une rétro sur le thème de Roland Garros (tennis)",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "ruts-tnd7i8",
+                "titre": "Tuto : je crée une rétro sur le thème de vendredi 13",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "fP1bn7rmC6Y",
+                "titre": "Je présente un petit gadget 'La roue des prénoms', que vous pouvez utiliser pour égayer vos rétros",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "WdOWeF6w4w4",
+                "titre": "Tuto : je crée une rétro sur le thème de la plage",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "1pKth1Mk3Ss",
+                "titre": "L'usine à rétros : je crée un Custom GPT qui génère des templates de rétrospectives à la demande",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "FPvt2BDKIpw",
+                "titre": "Je présente le fonctionnement de l'Usine à Rétros : un Custom GPT qui génère des remplates de rétrospectives agiles à la demande",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "AjHxGwM5oYY",
+                "titre": "Tuto : je vous présente le format de rétro 'Carte Postale'",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "Rb33e-szups",
+                "titre": "Tuto : je crée une rétro sur le thème de la rentrée des classes",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "U_o8g4ACgTk",
+                "titre": "Tuto rétrospective Start/Stop/Continue",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "9Uns3D6nOjE",
+                "titre": "Je vous propose une rétrospective sur le thème d'Halloween",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "zofwz0iiaX8",
+                "titre": "L'IA génère des templates de rétrospectives sur le thème d'Halloween",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "TPRjzFR78bQ",
+                "titre": "Test : que vaut Google Nano Banana sur la génération de templates de rétrospective ?",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "Z5ujxT3MZVc",
+                "titre": "Tuto Rétrospective 4L",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "ZdEr54DIefg",
+                "titre": "Tuto Mood Retrospective",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
             }
         ]
     },
@@ -109,20 +660,20 @@
         "serie": "06 Démos",
         "videos": [
             {
-                "id_youtube": "FAKE06A001",
-                "titre": "Préparer une démo produit claire et impactante",
-                "description-courte": "Les bonnes pratiques pour des démos compréhensibles.",
-                "description-moyenne": "Cette vidéo montre comment scénariser une démo, cadrer les messages clés et adapter le niveau de détail selon les parties prenantes.",
-                "mots-cles": [
-                    "démo",
-                    "produit",
-                    "communication",
-                    "stakeholders"
-                ],
-                "questions-repondues": [
-                    "Que montrer en priorité dans une sprint review ?",
-                    "Comment garder une démo courte mais utile ?"
-                ]
+                "id_youtube": "ZOLOwiOJA0k",
+                "titre": "3 Conseils pour réussir toutes vos démos",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "K2VijLacVJQ",
+                "titre": "Bingo Démo (pour réussir toutes vos démos)",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
             }
         ]
     },
@@ -130,20 +681,28 @@
         "serie": "07 DevOps",
         "videos": [
             {
-                "id_youtube": "FAKE07A001",
-                "titre": "DevOps pour débutants: principes et premiers pas",
-                "description-courte": "Introduction aux fondations DevOps.",
-                "description-moyenne": "Un épisode d'entrée pour comprendre culture DevOps, collaboration, automatisation et mesure continue dans un contexte projet réel.",
-                "mots-cles": [
-                    "DevOps",
-                    "culture",
-                    "automatisation",
-                    "delivery"
-                ],
-                "questions-repondues": [
-                    "Par quoi commencer quand on débute en DevOps ?",
-                    "Quels indicateurs suivre au départ ?"
-                ]
+                "id_youtube": "7MEj3jMiVic",
+                "titre": "Je montre commen ChatGPT, Claude et Gemini peuvent générer des Release Notes à partir d'un fichier gitlog",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "ugj44kHM8HI",
+                "titre": "Comment héberfer un petit site web  directement sur Github ?",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "oM9IVh89dhg",
+                "titre": "Générer des diagrammes de classes et les versionner dans GitHub automatiquement grâce à Mermaid et ChatGPT",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
             }
         ]
     },
@@ -151,20 +710,28 @@
         "serie": "08 Questions",
         "videos": [
             {
-                "id_youtube": "FAKE08A001",
-                "titre": "Questions fréquentes sur Scrum et Kanban",
-                "description-courte": "Réponses courtes aux questions les plus posées.",
-                "description-moyenne": "On répond aux interrogations récurrentes autour de Scrum, Kanban, rôles, métriques et choix d'approche selon le contexte d'équipe.",
-                "mots-cles": [
-                    "questions",
-                    "Scrum",
-                    "Kanban",
-                    "FAQ"
-                ],
-                "questions-repondues": [
-                    "Scrum ou Kanban: comment choisir ?",
-                    "Faut-il des estimations dans tous les cas ?"
-                ]
+                "id_youtube": "twcUbV_Wh2g",
+                "titre": "Différence entre Risque et Dépendance",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "8nkLlRbT-2A",
+                "titre": "3 Conseils pour gérér une équipe dont tous les membres sont à temps partiel car partagés avec d'autres équipes",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
+            },
+            {
+                "id_youtube": "-ENxaTp2_0U",
+                "titre": "L'Agilité est-elle morte ?",
+                "description-courte": "",
+                "description-moyenne": "",
+                "mots-cles": [],
+                "questions-repondues": []
             }
         ]
     },
