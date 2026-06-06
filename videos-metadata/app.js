@@ -185,6 +185,20 @@
     el.editorForm.hidden = false;
     el.editorForm.innerHTML = '';
 
+    if (video.id_youtube) {
+      const embedContainer = document.createElement('div');
+      embedContainer.className = 'youtube-embed-container';
+      const iframe = document.createElement('iframe');
+      iframe.src = `https://www.youtube.com/embed/${video.id_youtube}`;
+      iframe.width = '100%';
+      iframe.height = '400';
+      iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      iframe.allowFullscreen = true;
+      iframe.title = 'Embedded YouTube video';
+      embedContainer.appendChild(iframe);
+      el.editorForm.appendChild(embedContainer);
+    }
+
     const videoCard = createCard('Vidéo sélectionnée');
     videoCard.content.append(
       createField({ label: 'id_youtube', value: video.id_youtube, singleLine: true, onChange: (value) => updateVideoField('id_youtube', value, true) }),

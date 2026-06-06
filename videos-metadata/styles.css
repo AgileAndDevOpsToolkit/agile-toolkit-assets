@@ -275,6 +275,19 @@ textarea {
   background: var(--panel-soft);
 }
 
+.youtube-embed-container {
+  margin-bottom: 18px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  overflow: hidden;
+  background: var(--panel-soft);
+}
+
+.youtube-embed-container iframe {
+  border: none;
+  display: block;
+}
+
 .section-title {
   display: flex;
   align-items: center;
