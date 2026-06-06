@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Éditeur de métadonnées vidéos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand">
+      <h1>Éditeur de métadonnées vidéos</h1>
+      <p>Visualiser, éditer, copier/coller et sauvegarder le fichier JSON local.</p>
+    </div>
+    <div class="statusbar">
+      <span id="saveStatus" class="status status-loading">Chargement…</span>
+      <button id="saveBtn" class="btn btn-primary" disabled>Enregistrer</button>
+      <button id="reloadBtn" class="btn">Recharger</button>
+      <button id="downloadBtn" class="btn">Exporter JSON</button>
+    </div>
+  </header>
+
+  <nav class="series-nav" aria-label="Séries">
+    <div id="seriesButtons" class="series-buttons"></div>
+  </nav>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h2>Vidéos</h2>
+        <button id="addVideoBtn" class="btn btn-small">+ Vidéo</button>
+      </div>
+      <div id="videoList" class="video-list"></div>
+    </aside>
+
+    <section class="editor-panel">
+<form id="editorForm" class="editor-form" hidden></form>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
