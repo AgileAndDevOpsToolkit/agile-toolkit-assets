@@ -205,13 +205,6 @@
       createField({ label: 'description-moyenne', value: video['description-moyenne'], onChange: (value) => updateVideoField('description-moyenne', value) })
     );
 
-    const videoActions = document.createElement('div');
-    videoActions.className = 'meta-actions';
-    videoActions.append(
-      makeButton('Dupliquer la vidéo', () => duplicateVideo()),
-      makeButton('Supprimer la vidéo', () => deleteVideo(), 'btn-danger')
-    );
-    videoCard.content.appendChild(videoActions);
     el.editorForm.appendChild(videoCard.card);
 
     el.editorForm.appendChild(createKeywordsEditor(
