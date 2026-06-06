@@ -190,8 +190,6 @@
       embedContainer.className = 'youtube-embed-container';
       const iframe = document.createElement('iframe');
       iframe.src = `https://www.youtube.com/embed/${video.id_youtube}`;
-      iframe.width = '100%';
-      iframe.height = '400';
       iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
       iframe.allowFullscreen = true;
       iframe.title = 'Embedded YouTube video';
@@ -264,16 +262,13 @@
 
     const actions = document.createElement('div');
     actions.className = 'field-actions';
-    actions.append(
-      makeButton('Copier', () => copyText(input.value)),
-      makeButton('Coller', async () => {
-        const pasted = await readClipboardText();
-        if (pasted !== null) {
-          input.value = pasted;
-          onChange(pasted);
-        }
-      })
-    );
+    const copyBtn = document.createElement('button');
+    copyBtn.type = 'button';
+    copyBtn.className = 'btn btn-small keywords-copy-btn';
+    copyBtn.textContent = '📋';
+    copyBtn.title = 'Copier';
+    copyBtn.addEventListener('click', () => copyText(input.value));
+    actions.appendChild(copyBtn);
 
     row.append(labelEl, control, actions);
     return row;

@@ -276,16 +276,21 @@ textarea {
 }
 
 .youtube-embed-container {
-  margin-bottom: 18px;
+  margin: 0 auto 18px auto;
+  max-width: 340px;
+  width: 100%;
   border: 1px solid var(--border);
   border-radius: 16px;
   overflow: hidden;
   background: var(--panel-soft);
+  aspect-ratio: 16 / 9;
 }
 
 .youtube-embed-container iframe {
   border: none;
   display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .section-title {
