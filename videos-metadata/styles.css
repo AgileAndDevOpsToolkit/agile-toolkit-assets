@@ -340,11 +340,17 @@ textarea {
   width: 100%;
   box-sizing: border-box;
   font-size: 0.95rem;
-  padding: 8px 12px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  background: var(--bg);
+  padding: 10px 12px;
+  border: 1px solid var(--border-strong);
+  border-radius: 10px;
+  background: #fff;
   color: var(--text);
+  outline: none;
+}
+
+.keywords-input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(31, 111, 235, 0.12);
 }
 
 .keywords-copy-btn {
