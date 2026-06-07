@@ -1,6 +1,7 @@
 [
     {
         "serie": "01 Agilité à l'Échelle",
+        "intro-hub-html": "💡 Cette série de vidéo est un cours sur l'agilité à l'échelle. A regarder dans l'ordre idéalement",
         "videos": [
             {
                 "id_youtube": "nEcQbNEdYTQ",
@@ -76,6 +77,7 @@
     },
     {
         "serie": "02 Agilité et IA",
+        "intro-hub-html": "",
         "videos": [
             {
                 "id_youtube": "OChJUyU8dWk",
@@ -385,6 +387,7 @@
     },
     {
         "serie": "03 Glossaire",
+        "intro-hub-html": "",
         "videos": [
             {
                 "id_youtube": "7OA3USnZ3TU",
@@ -462,6 +465,7 @@
     },
     {
         "serie": "04 DevOps et IA",
+        "intro-hub-html": "",
         "videos": [
             {
                 "id_youtube": "7MEj3jMiVic",
@@ -477,6 +481,7 @@
     },
     {
         "serie": "05 Rétros",
+        "intro-hub-html": "💡 Retrouvez tous les templates de rétrospective sur mon site 👉 <a href=\"https://agileanddevopstoolkit.github.io/retro-templates/\" target=\"_blank\" rel=\"noopener\">Retro Templates</a>.",
         "videos": [
             {
                 "id_youtube": "wSJGMRr9vmw",
@@ -658,6 +663,7 @@
     },
     {
         "serie": "06 Démos",
+        "intro-hub-html": "💡 Mon appli 'Bingo Démo' pour évaluer une démo ou vous aider à préparer vos démos 👉 <a href=\"https://agileanddevopstoolkit.github.io/BingoDemo/\" target=\"_blank\" rel=\"noopener\">Bingo Demo</a>.",
         "videos": [
             {
                 "id_youtube": "ZOLOwiOJA0k",
@@ -679,6 +685,7 @@
     },
     {
         "serie": "07 DevOps",
+        "intro-hub-html": "",
         "videos": [
             {
                 "id_youtube": "7MEj3jMiVic",
@@ -708,6 +715,7 @@
     },
     {
         "serie": "08 Questions",
+        "intro-hub-html": "",
         "videos": [
             {
                 "id_youtube": "twcUbV_Wh2g",
@@ -737,6 +745,7 @@
     },
     {
         "serie": "09 Specials",
+        "intro-hub-html": "",
         "videos": [
             {
                 "id_youtube": "FAKE09A001",
@@ -758,6 +767,7 @@
     },
     {
         "serie": "10 Comprendre l'IA",
+        "intro-hub-html": "",
         "videos": [
             {
                 "id_youtube": "FAKE10A001",
@@ -779,6 +789,7 @@
     },
     {
         "serie": "11 Use Cases IA",
+        "intro-hub-html": "",
         "videos": [
             {
                 "id_youtube": "FAKE11A001",
@@ -800,6 +811,7 @@
     },
     {
         "serie": "12 Ice Breakers",
+        "intro-hub-html": "",
         "videos": [
             {
                 "id_youtube": "FAKE12A001",
