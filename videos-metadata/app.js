@@ -20,6 +20,7 @@
     videoList: document.getElementById('videoList'),
     editorForm: document.getElementById('editorForm'),
     toast: document.getElementById('toast'),
+    videoCount: document.getElementById('videoCount'),
   };
 
   document.addEventListener('DOMContentLoaded', init);
@@ -145,14 +146,18 @@
     const serie = currentSerie();
 
     if (!serie) {
+      el.videoCount.textContent = '';
       el.videoList.innerHTML = '<p class="empty-state">Aucune série.</p>';
       return;
     }
 
     if (!serie.videos.length) {
+      el.videoCount.textContent = '';
       el.videoList.innerHTML = '<p class="empty-state">Aucune vidéo dans cette série.</p>';
       return;
     }
+
+    el.videoCount.textContent = `(${serie.videos.length})`;
 
     serie.videos.forEach((video, index) => {
       const button = document.createElement('button');

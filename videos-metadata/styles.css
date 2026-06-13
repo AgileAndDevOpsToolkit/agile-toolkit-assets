@@ -219,6 +219,12 @@ textarea {
   padding: 10px;
 }
 
+.video-count-badge {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--muted);
+}
+
 .video-item {
   width: 100%;
   margin: 0 0 8px;
