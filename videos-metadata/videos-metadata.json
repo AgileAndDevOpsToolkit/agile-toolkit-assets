@@ -90,7 +90,8 @@
             "ChatGPT",
             "Claude",
             "Gemini",
-            "benchmark",
+            "ai-benchmark",
+            "ai-reflexion",
             "DeepSeek",
             "Mistral"
         ],
@@ -105,7 +106,9 @@
                     "benchmark",
                     "essentiels_ia"
                 ],
-                "meta-tags": [],
+                "meta-tags": [
+                    "ai-benchmark"
+                ],
                 "questions-repondues": []
             },
             {
@@ -116,7 +119,9 @@
                 "mots-cles": [
                     "benchmark"
                 ],
-                "meta-tags": [],
+                "meta-tags": [
+                    "ai-benchmark"
+                ],
                 "questions-repondues": []
             },
             {
@@ -127,7 +132,9 @@
                 "mots-cles": [
                     "benchmark"
                 ],
-                "meta-tags": [],
+                "meta-tags": [
+                    "ai-benchmark"
+                ],
                 "questions-repondues": []
             },
             {
@@ -138,7 +145,9 @@
                 "mots-cles": [
                     "benchmark"
                 ],
-                "meta-tags": [],
+                "meta-tags": [
+                    "ai-benchmark"
+                ],
                 "questions-repondues": []
             },
             {
@@ -149,7 +158,9 @@
                 "mots-cles": [
                     "benchmark"
                 ],
-                "meta-tags": [],
+                "meta-tags": [
+                    "ai-benchmark"
+                ],
                 "questions-repondues": []
             },
             {
@@ -171,7 +182,9 @@
                 "mots-cles": [
                     "benchmark"
                 ],
-                "meta-tags": [],
+                "meta-tags": [
+                    "ai-benchmark"
+                ],
                 "questions-repondues": []
             },
             {
@@ -182,7 +195,9 @@
                 "mots-cles": [
                     "benchmark"
                 ],
-                "meta-tags": [],
+                "meta-tags": [
+                    "ai-benchmark"
+                ],
                 "questions-repondues": []
             },
             {
@@ -194,7 +209,9 @@
                     "benchmark",
                     "essentiels_ia"
                 ],
-                "meta-tags": [],
+                "meta-tags": [
+                    "ai-benchmark"
+                ],
                 "questions-repondues": []
             },
             {
@@ -205,7 +222,9 @@
                 "mots-cles": [
                     "benchmark"
                 ],
-                "meta-tags": [],
+                "meta-tags": [
+                    "ai-benchmark"
+                ],
                 "questions-repondues": []
             },
             {
@@ -216,7 +235,9 @@
                 "mots-cles": [
                     "benchmark"
                 ],
-                "meta-tags": [],
+                "meta-tags": [
+                    "ai-benchmark"
+                ],
                 "questions-repondues": []
             },
             {
@@ -227,7 +248,9 @@
                 "mots-cles": [
                     "benchmark"
                 ],
-                "meta-tags": [],
+                "meta-tags": [
+                    "ai-benchmark"
+                ],
                 "questions-repondues": []
             },
             {
@@ -238,7 +261,9 @@
                 "mots-cles": [
                     "benchmark"
                 ],
-                "meta-tags": [],
+                "meta-tags": [
+                    "ai-benchmark"
+                ],
                 "questions-repondues": []
             },
             {
@@ -249,7 +274,9 @@
                 "mots-cles": [
                     "benchmark"
                 ],
-                "meta-tags": [],
+                "meta-tags": [
+                    "ai-benchmark"
+                ],
                 "questions-repondues": []
             },
             {
@@ -260,7 +287,9 @@
                 "mots-cles": [
                     "benchmark"
                 ],
-                "meta-tags": [],
+                "meta-tags": [
+                    "ai-benchmark"
+                ],
                 "questions-repondues": []
             },
             {
@@ -271,7 +300,9 @@
                 "mots-cles": [
                     "benchmark"
                 ],
-                "meta-tags": [],
+                "meta-tags": [
+                    "ai-benchmark"
+                ],
                 "questions-repondues": []
             },
             {
@@ -282,7 +313,9 @@
                 "mots-cles": [
                     "benchmark"
                 ],
-                "meta-tags": [],
+                "meta-tags": [
+                    "ai-benchmark"
+                ],
                 "questions-repondues": []
             },
             {
@@ -294,7 +327,9 @@
                     "réflexion",
                     "essentiels_ia"
                 ],
-                "meta-tags": [],
+                "meta-tags": [
+                    "ai-reflexion"
+                ],
                 "questions-repondues": []
             },
             {
@@ -306,7 +341,9 @@
                     "réflexion",
                     "essentiels_ia"
                 ],
-                "meta-tags": [],
+                "meta-tags": [
+                    "ai-benchmark"
+                ],
                 "questions-repondues": []
             },
             {
@@ -317,7 +354,9 @@
                 "mots-cles": [
                     "réflexion"
                 ],
-                "meta-tags": [],
+                "meta-tags": [
+                    "ai-benchmark"
+                ],
                 "questions-repondues": []
             },
             {
@@ -328,7 +367,9 @@
                 "mots-cles": [
                     "réflexion"
                 ],
-                "meta-tags": [],
+                "meta-tags": [
+                    "ai-reflexion"
+                ],
                 "questions-repondues": []
             },
             {
@@ -339,7 +380,9 @@
                 "mots-cles": [
                     "réflexion"
                 ],
-                "meta-tags": [],
+                "meta-tags": [
+                    "ai-reflexion"
+                ],
                 "questions-repondues": []
             },
             {
@@ -350,7 +393,9 @@
                 "mots-cles": [
                     "réflexion"
                 ],
-                "meta-tags": [],
+                "meta-tags": [
+                    "ai-reflexion"
+                ],
                 "questions-repondues": []
             },
             {
@@ -361,7 +406,9 @@
                 "mots-cles": [
                     "réflexion"
                 ],
-                "meta-tags": [],
+                "meta-tags": [
+                    "ai-reflexion"
+                ],
                 "questions-repondues": []
             },
             {
@@ -372,7 +419,9 @@
                 "mots-cles": [
                     "réflexion"
                 ],
-                "meta-tags": [],
+                "meta-tags": [
+                    "ai-reflexion"
+                ],
                 "questions-repondues": []
             },
             {
@@ -383,18 +432,22 @@
                 "mots-cles": [
                     "réflexion"
                 ],
-                "meta-tags": [],
+                "meta-tags": [
+                    "ai-reflexion"
+                ],
                 "questions-repondues": []
             },
             {
                 "id_youtube": "TBvkV607Tic",
-                "titre": "J\\'explique les différents composants techniques d\\'une IA générative",
+                "titre": "J'explique les différents composants techniques d'une IA générative",
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [
                     "réflexion"
                 ],
-                "meta-tags": [],
+                "meta-tags": [
+                    "ai-reflexion"
+                ],
                 "questions-repondues": []
             },
             {
@@ -464,65 +517,79 @@
             },
             {
                 "id_youtube": "L6QMqTG5j1I",
-                "titre": "",
+                "titre": "Agile Release Train",
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
-                "meta-tags": [],
+                "meta-tags": [
+                    "lette-A"
+                ],
                 "questions-repondues": []
             },
             {
                 "id_youtube": "FxkqMh5mM24",
-                "titre": "",
+                "titre": "ART Sync",
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
-                "meta-tags": [],
+                "meta-tags": [
+                    "lette-A"
+                ],
                 "questions-repondues": []
             },
             {
                 "id_youtube": "MM3X7MvXYuQ",
-                "titre": "",
+                "titre": "Assessment",
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
-                "meta-tags": [],
+                "meta-tags": [
+                    "lette-A"
+                ],
                 "questions-repondues": []
             },
             {
                 "id_youtube": "5uNde1yFawk",
-                "titre": "",
+                "titre": "Backlog",
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
-                "meta-tags": [],
+                "meta-tags": [
+                    "lette-B"
+                ],
                 "questions-repondues": []
             },
             {
                 "id_youtube": "5TeeNfOffDc",
-                "titre": "",
+                "titre": "Backlog Refinement",
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
-                "meta-tags": [],
+                "meta-tags": [
+                    "lette-B"
+                ],
                 "questions-repondues": []
             },
             {
                 "id_youtube": "6jSZZ4XTcmg",
-                "titre": "",
+                "titre": "Behavior Driven Development",
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
-                "meta-tags": [],
+                "meta-tags": [
+                    "lette-B"
+                ],
                 "questions-repondues": []
             },
             {
                 "id_youtube": "WknLX4DEs1k",
-                "titre": "",
+                "titre": "Built-In Quality",
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
-                "meta-tags": [],
+                "meta-tags": [
+                    "lette-B"
+                ],
                 "questions-repondues": []
             }
         ]
