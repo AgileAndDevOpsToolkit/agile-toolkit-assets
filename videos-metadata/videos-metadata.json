@@ -1,7 +1,7 @@
 [
     {
         "serie": "01 Agilité à l'Échelle",
-        "predefined-meta-tags":[],
+        "predefined-meta-tags": [],
         "intro-hub-html": "💡 Cette série de vidéo est un cours sur l'agilité à l'échelle. A regarder dans l'ordre idéalement",
         "videos": [
             {
@@ -16,6 +16,7 @@
                     "équipes",
                     "test"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -24,6 +25,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -32,6 +34,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -40,6 +43,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -48,6 +52,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -56,6 +61,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -64,6 +70,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -72,13 +79,21 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             }
         ]
     },
     {
         "serie": "02 Agilité et IA",
-        "predefined-meta-tags":["ChatGPT", "Claude", "Gemini", "benchmark", "DeepSeek", "Mistral"],
+        "predefined-meta-tags": [
+            "ChatGPT",
+            "Claude",
+            "Gemini",
+            "benchmark",
+            "DeepSeek",
+            "Mistral"
+        ],
         "intro-hub-html": "",
         "videos": [
             {
@@ -90,6 +105,7 @@
                     "benchmark",
                     "essentiels_ia"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -100,6 +116,7 @@
                 "mots-cles": [
                     "benchmark"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -110,6 +127,7 @@
                 "mots-cles": [
                     "benchmark"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -120,6 +138,7 @@
                 "mots-cles": [
                     "benchmark"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -130,6 +149,7 @@
                 "mots-cles": [
                     "benchmark"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -140,6 +160,7 @@
                 "mots-cles": [
                     "benchmark"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -150,6 +171,7 @@
                 "mots-cles": [
                     "benchmark"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -160,6 +182,7 @@
                 "mots-cles": [
                     "benchmark"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -171,6 +194,7 @@
                     "benchmark",
                     "essentiels_ia"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -181,6 +205,7 @@
                 "mots-cles": [
                     "benchmark"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -191,6 +216,7 @@
                 "mots-cles": [
                     "benchmark"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -201,6 +227,7 @@
                 "mots-cles": [
                     "benchmark"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -211,6 +238,7 @@
                 "mots-cles": [
                     "benchmark"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -221,6 +249,7 @@
                 "mots-cles": [
                     "benchmark"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -231,6 +260,7 @@
                 "mots-cles": [
                     "benchmark"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -241,6 +271,7 @@
                 "mots-cles": [
                     "benchmark"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -251,6 +282,7 @@
                 "mots-cles": [
                     "benchmark"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -262,6 +294,7 @@
                     "réflexion",
                     "essentiels_ia"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -273,6 +306,7 @@
                     "réflexion",
                     "essentiels_ia"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -283,6 +317,7 @@
                 "mots-cles": [
                     "réflexion"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -293,6 +328,7 @@
                 "mots-cles": [
                     "réflexion"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -303,6 +339,7 @@
                 "mots-cles": [
                     "réflexion"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -313,6 +350,7 @@
                 "mots-cles": [
                     "réflexion"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -323,6 +361,7 @@
                 "mots-cles": [
                     "réflexion"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -333,6 +372,7 @@
                 "mots-cles": [
                     "réflexion"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -343,6 +383,7 @@
                 "mots-cles": [
                     "réflexion"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -353,6 +394,7 @@
                 "mots-cles": [
                     "réflexion"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -363,6 +405,7 @@
                 "mots-cles": [
                     "essentiels_ia"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -373,6 +416,7 @@
                 "mots-cles": [
                     "essentiels_ia"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -383,13 +427,17 @@
                 "mots-cles": [
                     "essentiels_ia"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             }
         ]
     },
     {
         "serie": "03 Glossaire",
-        "predefined-meta-tags":["lette A", "lette B"],
+        "predefined-meta-tags": [
+            "lette A",
+            "lette B"
+        ],
         "intro-hub-html": "",
         "videos": [
             {
@@ -398,6 +446,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -406,6 +455,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -414,6 +464,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -422,6 +473,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -430,6 +482,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -438,6 +491,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -446,6 +500,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -454,6 +509,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -462,13 +518,18 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             }
         ]
     },
     {
         "serie": "04 DevOps et IA",
-        "predefined-meta-tags":["Release Notes", "GitHub", "automatisation"],
+        "predefined-meta-tags": [
+            "Release Notes",
+            "GitHub",
+            "automatisation"
+        ],
         "intro-hub-html": "",
         "videos": [
             {
@@ -479,13 +540,14 @@
                 "mots-cles": [
                     "essentiels_ia"
                 ],
+                "meta-tags": [],
                 "questions-repondues": []
             }
         ]
     },
     {
         "serie": "05 Rétros",
-        "predefined-meta-tags":[],
+        "predefined-meta-tags": [],
         "intro-hub-html": "💡 Retrouvez tous les templates de rétrospective sur mon site 👉 <a href=\"https://agileanddevopstoolkit.github.io/retro-templates/\" target=\"_blank\" rel=\"noopener\">Retro Templates</a>.",
         "videos": [
             {
@@ -494,6 +556,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -502,6 +565,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -510,6 +574,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -518,6 +583,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -526,6 +592,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -534,6 +601,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -542,6 +610,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -550,6 +619,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -558,6 +628,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -566,6 +637,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -574,6 +646,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -582,6 +655,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -590,6 +664,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -598,6 +673,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -606,6 +682,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -614,6 +691,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -622,6 +700,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -630,6 +709,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -638,6 +718,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -646,6 +727,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -654,6 +736,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -662,13 +745,16 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             }
         ]
     },
     {
         "serie": "06 Démos",
-        "predefined-meta-tags":["Bingo Démo"],
+        "predefined-meta-tags": [
+            "Bingo Démo"
+        ],
         "intro-hub-html": "💡 Mon appli 'Bingo Démo' pour évaluer une démo ou vous aider à préparer vos démos 👉 <a href=\"https://agileanddevopstoolkit.github.io/BingoDemo/\" target=\"_blank\" rel=\"noopener\">Bingo Demo</a>.",
         "videos": [
             {
@@ -677,6 +763,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -685,13 +772,21 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             }
         ]
     },
     {
         "serie": "07 DevOps",
-        "predefined-meta-tags":["DevOps", "GitHub", "Mermaid", "diagrammes", "hébergement", "automatisation"],
+        "predefined-meta-tags": [
+            "DevOps",
+            "GitHub",
+            "Mermaid",
+            "diagrammes",
+            "hébergement",
+            "automatisation"
+        ],
         "intro-hub-html": "",
         "videos": [
             {
@@ -700,6 +795,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -708,6 +804,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -716,13 +813,14 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             }
         ]
     },
     {
         "serie": "08 Questions",
-        "predefined-meta-tags":[],
+        "predefined-meta-tags": [],
         "intro-hub-html": "",
         "videos": [
             {
@@ -731,6 +829,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -739,6 +838,7 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             },
             {
@@ -747,13 +847,16 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
+                "meta-tags": [],
                 "questions-repondues": []
             }
         ]
     },
     {
         "serie": "09 Specials",
-        "predefined-meta-tags":["conférence"],
+        "predefined-meta-tags": [
+            "conférence"
+        ],
         "intro-hub-html": "",
         "videos": [
             {
@@ -767,6 +870,7 @@
                     "terrain",
                     "apprentissage"
                 ],
+                "meta-tags": [],
                 "questions-repondues": [
                     "Quels leviers ont eu le plus d'impact ?",
                     "Quelles erreurs éviter sur un cas similaire ?"
@@ -776,7 +880,7 @@
     },
     {
         "serie": "10 Comprendre l'IA",
-        "predefined-meta-tags":[],
+        "predefined-meta-tags": [],
         "intro-hub-html": "",
         "videos": [
             {
@@ -790,6 +894,7 @@
                     "machine learning",
                     "génératif"
                 ],
+                "meta-tags": [],
                 "questions-repondues": [
                     "Quelle différence entre IA classique et IA générative ?",
                     "Comment expliquer l'IA à un public non technique ?"
@@ -799,7 +904,7 @@
     },
     {
         "serie": "11 Use Cases IA",
-        "predefined-meta-tags":[],
+        "predefined-meta-tags": [],
         "intro-hub-html": "",
         "videos": [
             {
@@ -813,6 +918,7 @@
                     "produit",
                     "priorisation"
                 ],
+                "meta-tags": [],
                 "questions-repondues": [
                     "Quels cas d'usage sont vite rentables ?",
                     "Comment choisir un premier pilote IA ?"
@@ -822,7 +928,7 @@
     },
     {
         "serie": "12 Ice Breakers",
-        "predefined-meta-tags":[],
+        "predefined-meta-tags": [],
         "intro-hub-html": "",
         "videos": [
             {
@@ -836,6 +942,7 @@
                     "facilitation",
                     "énergie"
                 ],
+                "meta-tags": [],
                 "questions-repondues": [
                     "Quel ice breaker choisir selon le temps disponible ?",
                     "Comment adapter l'activité à un groupe distribué ?"

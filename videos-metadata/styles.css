@@ -4,6 +4,7 @@
   --panel-soft: #f9fafc;
   --text: #172033;
   --muted: #637083;
+  --placeholder: #aab2be;
   --border: #dfe5ee;
   --border-strong: #c8d1df;
   --accent: #1f6feb;
@@ -312,6 +313,17 @@ textarea {
   font-size: 1.05rem;
 }
 
+.section-subtitle {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--placeholder);
+  margin-left: 0;
+}
+
+.section-title h3 .section-subtitle {
+  font-weight: 400;
+}
+
 .form-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -375,6 +387,11 @@ textarea {
 .keywords-input:focus {
   border-color: var(--accent);
   box-shadow: 0 0 0 3px rgba(31, 111, 235, 0.12);
+}
+
+.keywords-input::placeholder,
+.questions-input::placeholder {
+  color: var(--placeholder);
 }
 
 .keywords-copy-btn {

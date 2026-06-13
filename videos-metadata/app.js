@@ -85,6 +85,7 @@
       'description-courte': String(video['description-courte'] ?? ''),
       'description-moyenne': String(video['description-moyenne'] ?? ''),
       'mots-cles': Array.isArray(video['mots-cles']) ? video['mots-cles'].map(String) : [],
+      'meta-tags': Array.isArray(video['meta-tags']) ? video['meta-tags'].map(String) : [],
       'questions-repondues': Array.isArray(video['questions-repondues']) ? video['questions-repondues'].map(String) : [],
     };
   }
@@ -217,6 +218,11 @@
       (items) => updateVideoField('mots-cles', items),
     ));
 
+    el.editorForm.appendChild(createMetaTagsEditor(
+      video['meta-tags'],
+      (items) => updateVideoField('meta-tags', items),
+    ));
+
     el.editorForm.appendChild(createQuestionsEditor(
       video['questions-repondues'],
       (items) => updateVideoField('questions-repondues', items),
@@ -275,6 +281,12 @@
   function createKeywordsEditor(items, onChange) {
     const { card, content } = createCard('Mots-clés');
 
+    const h3 = card.querySelector('.section-title h3');
+    const subtitle = document.createElement('span');
+    subtitle.className = 'section-subtitle';
+    subtitle.textContent = ' (exemple : mots-clés Youtube)';
+    h3.appendChild(subtitle);
+
     const header = card.querySelector('.section-title');
     const copyBtn = document.createElement('button');
     copyBtn.type = 'button';
@@ -292,6 +304,39 @@
     input.addEventListener('input', () => {
       const keywords = input.value.split(/\s+/).filter(Boolean).map(k => k.replace(/^#+/, ''));
       onChange(keywords);
+    });
+
+    header.appendChild(copyBtn);
+    content.appendChild(input);
+    return card;
+  }
+
+  function createMetaTagsEditor(items, onChange) {
+    const { card, content } = createCard('Meta-tags');
+
+    const h3 = card.querySelector('.section-title h3');
+    const subtitle = document.createElement('span');
+    subtitle.className = 'section-subtitle';
+    subtitle.textContent = ' (Pour indexation Agile Toolkit)';
+    h3.appendChild(subtitle);
+
+    const header = card.querySelector('.section-title');
+    const copyBtn = document.createElement('button');
+    copyBtn.type = 'button';
+    copyBtn.className = 'btn btn-small keywords-copy-btn';
+    copyBtn.textContent = '📋';
+    copyBtn.title = 'Copier les meta-tags';
+    const input = document.createElement('input');
+    input.type = 'text';
+    input.value = items.map(k => `#${k}`).join(' ');
+    input.placeholder = '#tag1 #tag2 #tag3';
+    input.className = 'keywords-input';
+
+    copyBtn.addEventListener('click', () => copyText(input.value));
+
+    input.addEventListener('input', () => {
+      const tags = input.value.split(/\s+/).filter(Boolean).map(k => k.replace(/^#+/, ''));
+      onChange(tags);
     });
 
     header.appendChild(copyBtn);
