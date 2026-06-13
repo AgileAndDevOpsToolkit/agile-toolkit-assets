@@ -1,6 +1,7 @@
 [
     {
         "serie": "01 Agilité à l'Échelle",
+        "keywords": [],
         "intro-hub-html": "💡 Cette série de vidéo est un cours sur l'agilité à l'échelle. A regarder dans l'ordre idéalement",
         "videos": [
             {
@@ -77,6 +78,7 @@
     },
     {
         "serie": "02 Agilité et IA",
+        "keywords": ["ChatGPT", "Claude", "Gemini", "benchmark", "DeepSeek", "Mistral"],
         "intro-hub-html": "",
         "videos": [
             {
@@ -387,6 +389,7 @@
     },
     {
         "serie": "03 Glossaire",
+        "keywords": ["lette A", "lette B"],
         "intro-hub-html": "",
         "videos": [
             {
@@ -465,6 +468,7 @@
     },
     {
         "serie": "04 DevOps et IA",
+        "keywords": ["Release Notes", "GitHub", "automatisation"],
         "intro-hub-html": "",
         "videos": [
             {
@@ -481,6 +485,7 @@
     },
     {
         "serie": "05 Rétros",
+        "keywords": [],
         "intro-hub-html": "💡 Retrouvez tous les templates de rétrospective sur mon site 👉 <a href=\"https://agileanddevopstoolkit.github.io/retro-templates/\" target=\"_blank\" rel=\"noopener\">Retro Templates</a>.",
         "videos": [
             {
@@ -663,6 +668,7 @@
     },
     {
         "serie": "06 Démos",
+        "keywords": ["Bingo Démo"],
         "intro-hub-html": "💡 Mon appli 'Bingo Démo' pour évaluer une démo ou vous aider à préparer vos démos 👉 <a href=\"https://agileanddevopstoolkit.github.io/BingoDemo/\" target=\"_blank\" rel=\"noopener\">Bingo Demo</a>.",
         "videos": [
             {
@@ -685,6 +691,7 @@
     },
     {
         "serie": "07 DevOps",
+        "keywords": ["DevOps", "GitHub", "Mermaid", "diagrammes", "hébergement", "automatisation"],
         "intro-hub-html": "",
         "videos": [
             {
@@ -715,6 +722,7 @@
     },
     {
         "serie": "08 Questions",
+        "keywords": [],
         "intro-hub-html": "",
         "videos": [
             {
@@ -745,6 +753,7 @@
     },
     {
         "serie": "09 Specials",
+        "keywords": ["conférence"],
         "intro-hub-html": "",
         "videos": [
             {
@@ -767,6 +776,7 @@
     },
     {
         "serie": "10 Comprendre l'IA",
+        "keywords": [],
         "intro-hub-html": "",
         "videos": [
             {
@@ -789,6 +799,7 @@
     },
     {
         "serie": "11 Use Cases IA",
+        "keywords": [],
         "intro-hub-html": "",
         "videos": [
             {
@@ -811,6 +822,7 @@
     },
     {
         "serie": "12 Ice Breakers",
+        "keywords": [],
         "intro-hub-html": "",
         "videos": [
             {
