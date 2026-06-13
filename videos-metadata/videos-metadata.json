@@ -457,7 +457,9 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
-                "meta-tags": [],
+                "meta-tags": [
+                    "lette-A"
+                ],
                 "questions-repondues": []
             },
             {

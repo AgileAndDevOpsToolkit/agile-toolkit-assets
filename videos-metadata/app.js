@@ -70,24 +70,30 @@
   }
 
   function normalizeData(data) {
-    return data.map((serie, serieIndex) => ({
-      serie: String(serie.serie ?? `Série ${serieIndex + 1}`),
-      'predefined-meta-tags': Array.isArray(serie['predefined-meta-tags']) ? serie['predefined-meta-tags'].map(String) : [],
-      videos: Array.isArray(serie.videos)
-        ? serie.videos.map(normalizeVideo)
-        : [],
-    }));
+    return data.map((serie, serieIndex) => {
+      const serieObject = (serie && typeof serie === 'object' && !Array.isArray(serie)) ? serie : {};
+      return {
+        ...serieObject,
+        serie: String(serieObject.serie ?? `Série ${serieIndex + 1}`),
+        'predefined-meta-tags': Array.isArray(serieObject['predefined-meta-tags']) ? serieObject['predefined-meta-tags'].map(String) : [],
+        videos: Array.isArray(serieObject.videos)
+          ? serieObject.videos.map(normalizeVideo)
+          : [],
+      };
+    });
   }
 
   function normalizeVideo(video = {}) {
+    const videoObject = (video && typeof video === 'object' && !Array.isArray(video)) ? video : {};
     return {
-      id_youtube: String(video.id_youtube ?? ''),
-      titre: String(video.titre ?? ''),
-      'description-courte': String(video['description-courte'] ?? ''),
-      'description-moyenne': String(video['description-moyenne'] ?? ''),
-      'mots-cles': Array.isArray(video['mots-cles']) ? video['mots-cles'].map(String) : [],
-      'meta-tags': Array.isArray(video['meta-tags']) ? video['meta-tags'].map(String) : [],
-      'questions-repondues': Array.isArray(video['questions-repondues']) ? video['questions-repondues'].map(String) : [],
+      ...videoObject,
+      id_youtube: String(videoObject.id_youtube ?? ''),
+      titre: String(videoObject.titre ?? ''),
+      'description-courte': String(videoObject['description-courte'] ?? ''),
+      'description-moyenne': String(videoObject['description-moyenne'] ?? ''),
+      'mots-cles': Array.isArray(videoObject['mots-cles']) ? videoObject['mots-cles'].map(String) : [],
+      'meta-tags': Array.isArray(videoObject['meta-tags']) ? videoObject['meta-tags'].map(String) : [],
+      'questions-repondues': Array.isArray(videoObject['questions-repondues']) ? videoObject['questions-repondues'].map(String) : [],
     };
   }
 
