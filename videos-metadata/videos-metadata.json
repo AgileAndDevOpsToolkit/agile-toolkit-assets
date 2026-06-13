@@ -1,7 +1,7 @@
 [
     {
         "serie": "01 Agilité à l'Échelle",
-        "meta-tags":[],
+        "predefined-meta-tags":[],
         "intro-hub-html": "💡 Cette série de vidéo est un cours sur l'agilité à l'échelle. A regarder dans l'ordre idéalement",
         "videos": [
             {
@@ -78,7 +78,7 @@
     },
     {
         "serie": "02 Agilité et IA",
-        "meta-tags":["ChatGPT", "Claude", "Gemini", "benchmark", "DeepSeek", "Mistral"],
+        "predefined-meta-tags":["ChatGPT", "Claude", "Gemini", "benchmark", "DeepSeek", "Mistral"],
         "intro-hub-html": "",
         "videos": [
             {
@@ -389,7 +389,7 @@
     },
     {
         "serie": "03 Glossaire",
-        "meta-tags":["lette A", "lette B"],
+        "predefined-meta-tags":["lette A", "lette B"],
         "intro-hub-html": "",
         "videos": [
             {
@@ -468,7 +468,7 @@
     },
     {
         "serie": "04 DevOps et IA",
-        "meta-tags":["Release Notes", "GitHub", "automatisation"],
+        "predefined-meta-tags":["Release Notes", "GitHub", "automatisation"],
         "intro-hub-html": "",
         "videos": [
             {
@@ -485,7 +485,7 @@
     },
     {
         "serie": "05 Rétros",
-        "meta-tags":[],
+        "predefined-meta-tags":[],
         "intro-hub-html": "💡 Retrouvez tous les templates de rétrospective sur mon site 👉 <a href=\"https://agileanddevopstoolkit.github.io/retro-templates/\" target=\"_blank\" rel=\"noopener\">Retro Templates</a>.",
         "videos": [
             {
@@ -668,7 +668,7 @@
     },
     {
         "serie": "06 Démos",
-        "meta-tags":["Bingo Démo"],
+        "predefined-meta-tags":["Bingo Démo"],
         "intro-hub-html": "💡 Mon appli 'Bingo Démo' pour évaluer une démo ou vous aider à préparer vos démos 👉 <a href=\"https://agileanddevopstoolkit.github.io/BingoDemo/\" target=\"_blank\" rel=\"noopener\">Bingo Demo</a>.",
         "videos": [
             {
@@ -691,7 +691,7 @@
     },
     {
         "serie": "07 DevOps",
-        "meta-tags":["DevOps", "GitHub", "Mermaid", "diagrammes", "hébergement", "automatisation"],
+        "predefined-meta-tags":["DevOps", "GitHub", "Mermaid", "diagrammes", "hébergement", "automatisation"],
         "intro-hub-html": "",
         "videos": [
             {
@@ -722,7 +722,7 @@
     },
     {
         "serie": "08 Questions",
-        "meta-tags":[],
+        "predefined-meta-tags":[],
         "intro-hub-html": "",
         "videos": [
             {
@@ -753,7 +753,7 @@
     },
     {
         "serie": "09 Specials",
-        "meta-tags":["conférence"],
+        "predefined-meta-tags":["conférence"],
         "intro-hub-html": "",
         "videos": [
             {
@@ -776,7 +776,7 @@
     },
     {
         "serie": "10 Comprendre l'IA",
-        "meta-tags":[],
+        "predefined-meta-tags":[],
         "intro-hub-html": "",
         "videos": [
             {
@@ -799,7 +799,7 @@
     },
     {
         "serie": "11 Use Cases IA",
-        "meta-tags":[],
+        "predefined-meta-tags":[],
         "intro-hub-html": "",
         "videos": [
             {
@@ -822,7 +822,7 @@
     },
     {
         "serie": "12 Ice Breakers",
-        "meta-tags":[],
+        "predefined-meta-tags":[],
         "intro-hub-html": "",
         "videos": [
             {
