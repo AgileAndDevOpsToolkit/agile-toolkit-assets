@@ -72,6 +72,7 @@
   function normalizeData(data) {
     return data.map((serie, serieIndex) => ({
       serie: String(serie.serie ?? `Série ${serieIndex + 1}`),
+      'predefined-meta-tags': Array.isArray(serie['predefined-meta-tags']) ? serie['predefined-meta-tags'].map(String) : [],
       videos: Array.isArray(serie.videos)
         ? serie.videos.map(normalizeVideo)
         : [],
@@ -220,6 +221,7 @@
 
     el.editorForm.appendChild(createMetaTagsEditor(
       video['meta-tags'],
+      serie['predefined-meta-tags'] || [],
       (items) => updateVideoField('meta-tags', items),
     ));
 
@@ -311,7 +313,7 @@
     return card;
   }
 
-  function createMetaTagsEditor(items, onChange) {
+  function createMetaTagsEditor(items, predefinedTags, onChange) {
     const { card, content } = createCard('Meta-tags');
 
     const h3 = card.querySelector('.section-title h3');
@@ -337,10 +339,48 @@
     input.addEventListener('input', () => {
       const tags = input.value.split(/\s+/).filter(Boolean).map(k => k.replace(/^#+/, ''));
       onChange(tags);
+      refreshPredefinedButtons();
     });
 
     header.appendChild(copyBtn);
     content.appendChild(input);
+
+    if (predefinedTags.length > 0) {
+      const tagsRow = document.createElement('div');
+      tagsRow.className = 'predefined-tags-row';
+
+      predefinedTags.forEach(tag => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'btn predefined-tag-btn';
+        btn.textContent = `#${tag}`;
+        btn.dataset.tag = tag;
+
+        btn.addEventListener('click', () => {
+          const current = input.value.split(/\s+/).filter(Boolean).map(k => k.replace(/^#+/, ''));
+          if (!current.includes(tag)) {
+            current.push(tag);
+            input.value = current.map(k => `#${k}`).join(' ');
+            onChange(current);
+            refreshPredefinedButtons();
+          }
+        });
+
+        tagsRow.appendChild(btn);
+      });
+
+      content.appendChild(tagsRow);
+
+      function refreshPredefinedButtons() {
+        const current = input.value.split(/\s+/).filter(Boolean).map(k => k.replace(/^#+/, ''));
+        tagsRow.querySelectorAll('.predefined-tag-btn').forEach(btn => {
+          btn.classList.toggle('predefined-tag-btn--active', current.includes(btn.dataset.tag));
+        });
+      }
+
+      refreshPredefinedButtons();
+    }
+
     return card;
   }
 

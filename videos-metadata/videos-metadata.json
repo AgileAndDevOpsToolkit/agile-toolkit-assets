@@ -435,8 +435,8 @@
     {
         "serie": "03 Glossaire",
         "predefined-meta-tags": [
-            "lette A",
-            "lette B"
+            "lette-A",
+            "lette-B"
         ],
         "intro-hub-html": "",
         "videos": [
@@ -446,7 +446,9 @@
                 "description-courte": "",
                 "description-moyenne": "",
                 "mots-cles": [],
-                "meta-tags": [],
+                "meta-tags": [
+                    "lette-A"
+                ],
                 "questions-repondues": []
             },
             {
