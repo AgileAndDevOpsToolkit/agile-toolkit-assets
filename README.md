@@ -4,22 +4,22 @@ Ressources personnelles utilisées pour la chaîne YouTube [Agile Toolkit](https
 
 Ce dépôt est destiné uniquement à mon usage dans le cadre de la chaîne Agile Toolkit. Il n'est pas conçu comme un projet générique ni comme un package à installer par d'autres personnes.
 
-## Contenu du dépôt
+## 📦 Contenu du dépôt
 
-### Identité visuelle
+### 🎨 Identité visuelle
 
 - `favicon/favicon.ico` : favicon commune aux sites et outils Agile Toolkit.
 - `logo/Agile-Toolkit-Logo-fond-bleu-682.png` : logo Agile Toolkit sur fond bleu.
 - `logo/logo_fondblanc_800.png` : logo Agile Toolkit sur fond blanc.
 
-### Menu de navigation partagé
+### 🧭 Menu de navigation partagé
 
 - `menu/menu.js` : menu flottant réutilisable en JavaScript. Il affiche le logo, les liens vers les outils Agile Toolkit, l'état actif et ouvre les liens YouTube dans un nouvel onglet.
 - `menu/menu-items.js` : liste des outils affichés par le menu (`AGILE_TOOLKIT_TOOLS`).
 - `menu/assets/logo_fondblanc_800.png` : copie du logo utilisée directement par `menu.js`.
 - `menu/demo.html` : page de démonstration permettant de tester le menu partagé.
 
-### Éditeur de métadonnées vidéo
+### 📊 Éditeur de métadonnées vidéo
 
 - `videos-metadata/index.html` : interface HTML de l'éditeur de métadonnées.
 - `videos-metadata/styles.css` : styles de l'interface de l'éditeur.
